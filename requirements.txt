@@ -1,0 +1,9 @@
+torch
+torchvision
+streamlit
+fastapi
+uvicorn
+Pillow
+plotly
+pandas
+scikit-learn

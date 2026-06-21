@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Données (trop volumineuses pour GitHub)
+data/raw/
+
+# Modèles entraînés (trop volumineux pour GitHub)
+models/*.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+train_output.log

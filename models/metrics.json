@@ -1,0 +1,86 @@
+{
+  "SimpleCNN": {
+    "accuracy": 76.28,
+    "per_class": {
+      "NORMAL": {
+        "precision": 95.74,
+        "recall": 38.46,
+        "f1_score": 54.88
+      },
+      "PNEUMONIA": {
+        "precision": 72.83,
+        "recall": 98.97,
+        "f1_score": 83.91
+      }
+    },
+    "confusion_matrix": [
+      [
+        90,
+        144
+      ],
+      [
+        4,
+        386
+      ]
+    ],
+    "training_time_seconds": 1102.5,
+    "epochs": 2,
+    "total_parameters": 12850530
+  },
+  "EnhancedCNN": {
+    "accuracy": 78.53,
+    "per_class": {
+      "NORMAL": {
+        "precision": 94.64,
+        "recall": 45.3,
+        "f1_score": 61.27
+      },
+      "PNEUMONIA": {
+        "precision": 75.0,
+        "recall": 98.46,
+        "f1_score": 85.14
+      }
+    },
+    "confusion_matrix": [
+      [
+        106,
+        128
+      ],
+      [
+        6,
+        384
+      ]
+    ],
+    "training_time_seconds": 2071.7,
+    "epochs": 2,
+    "total_parameters": 26145922
+  },
+  "ResNet18": {
+    "accuracy": 80.93,
+    "per_class": {
+      "NORMAL": {
+        "precision": 99.15,
+        "recall": 49.57,
+        "f1_score": 66.1
+      },
+      "PNEUMONIA": {
+        "precision": 76.73,
+        "recall": 99.74,
+        "f1_score": 86.73
+      }
+    },
+    "confusion_matrix": [
+      [
+        116,
+        118
+      ],
+      [
+        1,
+        389
+      ]
+    ],
+    "training_time_seconds": 40490.6,
+    "epochs": 2,
+    "total_parameters": 11177538
+  }
+}
